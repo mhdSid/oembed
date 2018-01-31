@@ -1,0 +1,13 @@
+---
+- provider_name: Anghami
+  provider_url: http://anghami.com/
+  endpoints:
+  - schemes:
+    - http://*.anghami.com/*
+    - anghami:*
+    url: https://widget.anghami.com/oembed/
+    example_urls:
+    - https://widget.anghami.com/oembed?url=https%3A%2F%2Fwidget.anghami.com%2Fartist%2F1763269%3F4fcbcd792caae839d7e6e3bf39c4d7a9%3D
+    - https://widget.anghami.com/oembed?url=https%3A%2F%2Fwidget.anghami.com%2Fartist%2F1763269%3F4fcbcd792caae839d7e6e3bf39c4d7a9%3D&format=json
+    discovery: true
+...
